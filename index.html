@@ -12,11 +12,13 @@
   <div style="display: flex;">
     <div id="center" style="height: 300px; width: 300px; border-radius: 50%; background-color: black;"></div>
     <div class="buttons">
-      <button style="background-color: blue;" id="blue" onclick="setColorToBlue()">Blau</button>
-      <button style="background-color: red;" id="red" onclick="setColorToRed()">Rot</button>
-      <button style="background-color: green;" id="green" onclick="setColorToGreen()">Grün</button>
-      <button style="background-color: yellow;" id="yellow" onclick="setColorToYellow()">Gelb</button>
+      <button style="background-color: blue;" id="blue" onclick="ColorChanger.handleClick(this)">Blau</button>
+      <button style="background-color: red;" id="red" onclick="ColorChanger.handleClick(this)">Rot</button>
+      <button style="background-color: green;" id="green" onclick="ColorChanger.handleClick(this)">Grün</button>
+      <button style="background-color: yellow;" id="yellow" onclick="ColorChanger.handleClick(this)">Gelb</button>
     </div>
+
+
   </div>
 </body>
 
